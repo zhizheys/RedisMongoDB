@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.RedisMongoDBUI", "MS.RedisMongoDBUI\MS.RedisMongoDBUI.csproj", "{A687F280-5EE3-4A92-A165-B4EFB0071186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.BLL", "MS.BLL\MS.BLL.csproj", "{94AEF2FB-B68C-440D-81D7-A03867C62BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.DAL", "MS.DAL\MS.DAL.csproj", "{4DC24607-67A5-4D11-A35D-8DDB4138871E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Model", "MS.Model\MS.Model.csproj", "{CFC91586-C34F-4142-B282-35FA55FA938D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Common", "MS.Common\MS.Common.csproj", "{3FA409BA-4B37-4111-B8BC-A6DBC63EB607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A687F280-5EE3-4A92-A165-B4EFB0071186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A687F280-5EE3-4A92-A165-B4EFB0071186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A687F280-5EE3-4A92-A165-B4EFB0071186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A687F280-5EE3-4A92-A165-B4EFB0071186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AEF2FB-B68C-440D-81D7-A03867C62BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AEF2FB-B68C-440D-81D7-A03867C62BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AEF2FB-B68C-440D-81D7-A03867C62BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AEF2FB-B68C-440D-81D7-A03867C62BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC24607-67A5-4D11-A35D-8DDB4138871E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC24607-67A5-4D11-A35D-8DDB4138871E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC24607-67A5-4D11-A35D-8DDB4138871E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC24607-67A5-4D11-A35D-8DDB4138871E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC91586-C34F-4142-B282-35FA55FA938D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC91586-C34F-4142-B282-35FA55FA938D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC91586-C34F-4142-B282-35FA55FA938D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC91586-C34F-4142-B282-35FA55FA938D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA409BA-4B37-4111-B8BC-A6DBC63EB607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA409BA-4B37-4111-B8BC-A6DBC63EB607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA409BA-4B37-4111-B8BC-A6DBC63EB607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA409BA-4B37-4111-B8BC-A6DBC63EB607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
