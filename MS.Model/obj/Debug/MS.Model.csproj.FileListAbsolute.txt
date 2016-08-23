@@ -1,0 +1,4 @@
+E:\MyTestDemo\RedisMongoDB\MS.Model\bin\Debug\MS.Model.dll
+E:\MyTestDemo\RedisMongoDB\MS.Model\bin\Debug\MS.Model.pdb
+E:\MyTestDemo\RedisMongoDB\MS.Model\obj\Debug\MS.Model.dll
+E:\MyTestDemo\RedisMongoDB\MS.Model\obj\Debug\MS.Model.pdb

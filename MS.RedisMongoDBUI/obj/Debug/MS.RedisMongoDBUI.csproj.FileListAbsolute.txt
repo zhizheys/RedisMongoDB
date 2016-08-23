@@ -16,6 +16,8 @@ E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.RedisMongoDBUI.pdb
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Antlr3.Runtime.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Microsoft.Web.Infrastructure.dll
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.BLL.dll
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.Model.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Newtonsoft.Json.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.Helpers.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.Mvc.dll
@@ -25,6 +27,10 @@ E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.WebPages.Deployment.
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.WebPages.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.WebPages.Razor.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\WebGrease.dll
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.Common.dll
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\StackExchange.Redis.dll
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.BLL.pdb
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.Model.pdb
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.Helpers.xml
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.Mvc.xml
@@ -35,6 +41,9 @@ E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.WebPages.Deployment.
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\System.Web.WebPages.Razor.xml
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Antlr3.Runtime.pdb
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\Newtonsoft.Json.xml
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\MS.Common.pdb
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\StackExchange.Redis.pdb
+E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\bin\StackExchange.Redis.xml
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\obj\Debug\MS.RedisMongoDBUI.csprojResolveAssemblyReference.cache
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\obj\Debug\MS.RedisMongoDBUI.dll
 E:\MyTestDemo\RedisMongoDB\MS.RedisMongoDBUI\obj\Debug\MS.RedisMongoDBUI.pdb

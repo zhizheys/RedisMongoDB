@@ -1,0 +1,9 @@
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\MS.Common.dll
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\MS.Common.pdb
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\Newtonsoft.Json.dll
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\StackExchange.Redis.dll
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\Newtonsoft.Json.xml
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\StackExchange.Redis.pdb
+E:\MyTestDemo\RedisMongoDB\MS.Common\bin\Debug\StackExchange.Redis.xml
+E:\MyTestDemo\RedisMongoDB\MS.Common\obj\Debug\MS.Common.dll
+E:\MyTestDemo\RedisMongoDB\MS.Common\obj\Debug\MS.Common.pdb
