@@ -54,11 +54,11 @@
     <Compile Include="CacheHelper\RedisCacheHelper.cs" />
     <Compile Include="JsonHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionHelper\ISessionHelper.cs" />
+    <Compile Include="SessionHelper\RedisSessionHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CookieHelper\" />
     <Folder Include="LogHelper\" />
-    <Folder Include="SessionHelper\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

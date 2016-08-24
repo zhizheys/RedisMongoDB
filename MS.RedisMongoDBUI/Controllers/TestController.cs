@@ -16,7 +16,24 @@ namespace MS.RedisMongoDBUI.Controllers
 
             ViewBag.Address = address;
 
+            HttpCookie cookieItem = new HttpCookie("Hello", "world");
+            cookieItem.Expires.AddMinutes(20);
+
+            HttpContext.Response.Cookies.Add(cookieItem);
+
+
+
+
             return View();
+        }
+
+
+        public ActionResult AA()
+        {
+
+            var item = HttpContext.Request.Cookies["Hello"].Value.ToString();
+
+          return  RedirectToAction("Index");
         }
     }
 }

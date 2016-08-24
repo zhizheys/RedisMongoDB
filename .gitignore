@@ -1,0 +1,10 @@
+/MS.BLL/bin
+/MS.BLL/obj
+/MS.Common/bin
+/MS.Common/obj
+/MS.Model/bin
+/MS.Model/obj
+/MS.RedisMongoDBUI/bin
+/MS.RedisMongoDBUI/obj
+/MS.DAL/bin
+/MS.DAL/obj
