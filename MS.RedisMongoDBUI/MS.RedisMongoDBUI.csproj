@@ -181,6 +181,10 @@
       <Project>{94aef2fb-b68c-440d-81d7-a03867c62ba1}</Project>
       <Name>MS.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MS.Common\MS.Common.csproj">
+      <Project>{3fa409ba-4b37-4111-b8bc-a6dbc63eb607}</Project>
+      <Name>MS.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MS.Model\MS.Model.csproj">
       <Project>{cfc91586-c34f-4142-b282-35fa55fa938d}</Project>
       <Name>MS.Model</Name>
