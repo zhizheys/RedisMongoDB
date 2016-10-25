@@ -1,0 +1,8 @@
+
+
+1. 利用redis做缓存、做session
+2. 利用dapper访问数据库，做ORM
+3. 利用MongoDB做日志数据库
+4. 利用AutoMap做对象映射
+5. 利用Kafka做消息队列，自动发送邮件测试
+6. 利用Quartz做任务调度，定期发送邮件
