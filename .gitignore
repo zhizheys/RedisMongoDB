@@ -1,2 +1,5 @@
 /MS.Common/bin
 /MS.Common/obj
+/MS.Model/obj/Debug
+/CreateExcelProcess/bin/Debug
+/MS.Model/bin/Debug

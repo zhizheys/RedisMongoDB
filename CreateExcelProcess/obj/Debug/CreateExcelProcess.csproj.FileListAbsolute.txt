@@ -1,0 +1,16 @@
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\CreateExcelProcess.exe.config
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\CreateExcelProcess.exe
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\CreateExcelProcess.pdb
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\MS.Common.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\NPOI.OOXML.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\NPOI.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\MS.Model.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\NPOI.OpenXmlFormats.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\NPOI.OpenXml4Net.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\MS.Common.pdb
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\NPOI.xml
+G:\webtest\RedisMongoDB\CreateExcelProcess\bin\Debug\MS.Model.pdb
+G:\webtest\RedisMongoDB\CreateExcelProcess\obj\Debug\CreateExcelProcess.csprojResolveAssemblyReference.cache
+G:\webtest\RedisMongoDB\CreateExcelProcess\obj\Debug\CreateExcelProcess.exe
+G:\webtest\RedisMongoDB\CreateExcelProcess\obj\Debug\CreateExcelProcess.pdb
