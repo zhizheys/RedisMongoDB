@@ -3,3 +3,7 @@
 /MS.Model/obj/Debug
 /CreateExcelProcess/bin/Debug
 /MS.Model/bin/Debug
+/CreateExcelProcess/obj
+/MS.BLL/bin
+/MS.DAL/bin
+/MS.DAL/obj
