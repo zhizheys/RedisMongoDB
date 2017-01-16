@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Quartz;
 using System.Collections.Specialized;
+using System.Reflection;
+using Quartz;
 using Quartz.Impl;
 using Quartz.Impl.Triggers;
 using Quartz.Spi;
-using System.Reflection;
 using Quartz.Impl.Matchers;
 using MS.Common.LogHelper;
+using MS.Common.ConfigHelper;
 using MS.Model;
 
 namespace MS.Common.TaskHelper
@@ -102,7 +103,7 @@ namespace MS.Common.TaskHelper
                     scheduler.Start();
 
                     ///获取所有执行中的任务
-                    List<TaskModel> listTask = TaskHelper.GetAllTaskList().ToList<TaskModel>();
+                    List<TaskModel> listTask = TaskActionHelper.GetAllTaskList().ToList<TaskModel>();
 
                     if (listTask != null && listTask.Count > 0)
                     {
@@ -114,7 +115,7 @@ namespace MS.Common.TaskHelper
                             }
                             catch (Exception e)
                             {
-                                LogHelper.CreateInstance().Error(string.Format("任务“{0}”启动失败！", taskUtil.TaskName), e);
+                                LogHelper.LogHelper.CreateInstance().Error(string.Format("任务“{0}”启动失败！", taskUtil.TaskName), e);
                             }
                         }
                     }

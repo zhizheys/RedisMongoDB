@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Quartz;
-using Weiz.TaskManager.Common;
-using Weiz.TaskManager.Models;
+using MS.Common;
+using MS.Model;
 
 namespace MS.Common.TaskHelper
 {

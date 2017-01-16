@@ -1,0 +1,4 @@
+E:\MyTestDemo\RedisMongoDB\MS.DAL\bin\Debug\MS.DAL.dll
+E:\MyTestDemo\RedisMongoDB\MS.DAL\bin\Debug\MS.DAL.pdb
+E:\MyTestDemo\RedisMongoDB\MS.DAL\obj\Debug\MS.DAL.dll
+E:\MyTestDemo\RedisMongoDB\MS.DAL\obj\Debug\MS.DAL.pdb

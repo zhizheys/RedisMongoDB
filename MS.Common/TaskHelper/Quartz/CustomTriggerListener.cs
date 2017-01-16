@@ -38,7 +38,7 @@ namespace MS.Common.TaskHelper
         /// <returns></returns>
         public bool VetoJobExecution(ITrigger trigger, IJobExecutionContext context)
         {
-            TaskHelper.UpdateRecentRunTime(trigger.JobKey.Name, TimeZoneInfo.ConvertTimeFromUtc(context.FireTimeUtc.Value.DateTime, TimeZoneInfo.Local));
+            TaskActionHelper.UpdateRecentRunTime(trigger.JobKey.Name, TimeZoneInfo.ConvertTimeFromUtc(context.FireTimeUtc.Value.DateTime, TimeZoneInfo.Local));
             return false;
         }
 
@@ -50,7 +50,7 @@ namespace MS.Common.TaskHelper
         /// <param name="triggerInstructionCode"></param>
         public void TriggerComplete(ITrigger trigger, IJobExecutionContext context, SchedulerInstruction triggerInstructionCode)
         {
-            TaskHelper.UpdateNextFireTime(trigger.JobKey.Name, TimeZoneInfo.ConvertTimeFromUtc(context.NextFireTimeUtc.Value.DateTime, TimeZoneInfo.Local));
+            TaskActionHelper.UpdateNextFireTime(trigger.JobKey.Name, TimeZoneInfo.ConvertTimeFromUtc(context.NextFireTimeUtc.Value.DateTime, TimeZoneInfo.Local));
         }
 
         /// <summary>

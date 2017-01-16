@@ -48,12 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Config\Config.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MS.Common\MS.Common.csproj">
       <Project>{3fa409ba-4b37-4111-b8bc-a6dbc63eb607}</Project>
       <Name>MS.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\TaskConfig.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

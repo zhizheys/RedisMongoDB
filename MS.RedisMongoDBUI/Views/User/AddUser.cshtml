@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using MS.RedisMongoDBUI.Models;
+     
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddUser</title>
+</head>
+<body>
+    <p>@Html.ValidationSummary()</p>
+    <p>@Html.ValidationMessageFor(model => )</p>
+    <p>@Html.ValidationMessageFor(model => model.Name)</p>
+    <p>@Html.ValidationMessageFor(model => model.Name)</p>
+    <p>@Html.ValidationMessageFor(model => model.Name)</p>
+
+    @using (Html.BeginForm("AddUser", "User", FormMethod.Post)) { 
+        @ User_ViewModel user =ViewBag.UserInfo as User_ViewModel;
+        <p>User Name:<input type="text" name="UserName" id="UserName" /></p>
+        <p>User Age:<input type="text" name="Age" id="Age" /></p>
+        <p>Provience:<input type="text" name="Provience" id="Provience" /></p>
+        <p>City:<input type="text" name="City" id="City" /></p>
+        <p><input type="submit" id="btnSubmit" name="btnSubmit" value="submit"  /></p>
+    }
+</body>
+</html>
