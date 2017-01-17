@@ -22,4 +22,11 @@ namespace MS.RedisMongoDBUI.Models
         [Required(ErrorMessage = "City can not empty")]
         public string City { get; set; }
     }
+
+    public class UserInfo_ViewModel
+    {
+        public string UserName { get; set; }
+        public string UserEmail { get; set; }
+        public string PhoneNum { get; set; }
+    }
 }

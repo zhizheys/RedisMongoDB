@@ -7,3 +7,6 @@
 /MS.BLL/bin
 /MS.DAL/bin
 /MS.DAL/obj
+/MS.BLL/obj/Debug
+/MS.RedisMongoDBUI/obj/Debug
+/MS.RedisMongoDBUI/bin
