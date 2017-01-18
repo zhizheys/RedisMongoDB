@@ -4,12 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
+using System.IO;
 
 namespace MS.Common.LogHelper
 {
    public class Log4NetHelper : ILogHelper
     {
-        log4net.ILog log = log4net.LogManager.GetLogger("testApp.Logging");
+        log4net.ILog log;
+
+        public Log4NetHelper()
+        {
+            FileInfo logCfg = new FileInfo(AppDomain.CurrentDomain.BaseDirectory + @"Config/log4net.config");
+            log4net.Config.XmlConfigurator.ConfigureAndWatch(logCfg);
+            log = log4net.LogManager.GetLogger("testApp.Logging");
+        }
 
         public void Debug(object message)
         {

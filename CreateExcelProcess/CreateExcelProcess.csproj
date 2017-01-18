@@ -58,6 +58,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Config\Config.config" />
+    <None Include="Config\log4net.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MS.Common\MS.Common.csproj">
