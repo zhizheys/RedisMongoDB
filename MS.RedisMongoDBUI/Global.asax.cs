@@ -8,6 +8,7 @@
     using System.Web.Optimization;
     using System.Web.Routing;
     using MS.Common.ConfigHelper;
+    using MS.Common.TaskHelper;
 
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -21,7 +22,7 @@
             ConfigInit.InitConfig();
 
             // 获取远程任务服务器上的 Scheduler
-            //QuartzHelper.InitRemoteScheduler();
+            QuartzHelper.InitRemoteScheduler();
         }
     }
 }
