@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using log4net;
 using System.IO;
+using System.Reflection;
 
 namespace MS.Common.LogHelper
 {
@@ -14,9 +15,10 @@ namespace MS.Common.LogHelper
 
         public Log4NetHelper()
         {
-            FileInfo logCfg = new FileInfo(AppDomain.CurrentDomain.BaseDirectory + @"Config/log4net.config");
+            FileInfo logCfg = new FileInfo(AppDomain.CurrentDomain.BaseDirectory + @"Config\log4net.config");
             log4net.Config.XmlConfigurator.ConfigureAndWatch(logCfg);
-            log = log4net.LogManager.GetLogger("testApp.Logging");
+            Type type = MethodBase.GetCurrentMethod().DeclaringType;
+            log = log4net.LogManager.GetLogger(type);
         }
 
         public void Debug(object message)

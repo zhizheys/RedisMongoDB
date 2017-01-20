@@ -121,7 +121,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-    <None Include="TaskHelper\quartz.config" />
+    <None Include="TaskHelper\quartz.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MS.Model\MS.Model.csproj">

@@ -22,7 +22,7 @@
             ConfigInit.InitConfig();
 
             // 获取远程任务服务器上的 Scheduler
-            QuartzHelper.InitRemoteScheduler();
+            //QuartzHelper.InitRemoteScheduler();
         }
     }
 }

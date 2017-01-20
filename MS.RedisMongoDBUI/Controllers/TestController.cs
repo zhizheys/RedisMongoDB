@@ -13,8 +13,11 @@ namespace MS.RedisMongoDBUI.Controllers
         // GET: Test
         public ActionResult Index()
         {
-            LogHelper.CreateInstance().Info("任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
-            LogHelper.CreateInstance().Error("任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            LogHelper.CreateInstance().Debug("debug任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            LogHelper.CreateInstance().Info("Info任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            LogHelper.CreateInstance().Warn("war任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            LogHelper.CreateInstance().Error("Error任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            LogHelper.CreateInstance().Fatal("fata任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             string aa = Newtonsoft.Json.JsonConvert.SerializeObject(UserBLL.GetAllUserInfo());
 
             //ViewBag.AllUser = UserBLL.GetAllUserInfo();
