@@ -74,7 +74,9 @@ namespace MS.Common.TaskHelper
 
                         //scheduler = factory.GetScheduler();
                         #endregion
-                        //// 配置文件的方式，配置quartz实例
+
+
+                        // 配置文件的方式，配置quartz实例
                         ISchedulerFactory schedulerFactory = new StdSchedulerFactory();
                         scheduler = schedulerFactory.GetScheduler();
 

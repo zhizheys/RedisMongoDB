@@ -10,3 +10,5 @@
 /MS.BLL/obj/Debug
 /MS.RedisMongoDBUI/obj/Debug
 /MS.RedisMongoDBUI/bin
+/CreateExcelProcess.Jobs/bin
+/CreateExcelProcess.Jobs/obj

@@ -23,7 +23,7 @@
             {
                 try
                 {
-                    var tastName = context.Trigger.Description;
+                    var tastName = "OrderCancel " + context.Trigger.Description;
                     // 3. 开始执行相关任务
                     LogHelper.CreateInstance().Info(tastName + ",任务发生的当前系统时间:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                     //Thread.Sleep(9000);
