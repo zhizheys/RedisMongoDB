@@ -1,0 +1,2 @@
+
+在本机szpc1942 发布的TaskManagerServiceBus Host服务，运行的账号：  msdomain1\jliu14  密码为: rfv@123456
